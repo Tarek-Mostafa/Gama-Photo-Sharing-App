@@ -18,6 +18,10 @@ section{
 	color: #1caa98;
 }
 
+.navbar .navbar-brand:hover{
+	color:  #1caa98;
+}
+
 .app-btn{
 	margin-right: 35px;
 }
