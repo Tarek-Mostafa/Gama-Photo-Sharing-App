@@ -1,3 +1,7 @@
+html, body{
+	height: 100%;
+}
+
 body {
   padding-top: 50px;
 }
@@ -14,12 +18,12 @@ section{
 	color: #1caa98; 
 }
 
-.em-text{
-	color: #1caa98;
+.navbar .navbar-brand:hover { 
+	color: #1caa98; 
 }
 
-.navbar .navbar-brand:hover{
-	color:  #1caa98;
+.em-text{
+	color: #1caa98;
 }
 
 .app-btn{
@@ -27,7 +31,7 @@ section{
 }
 
 .jumbotron{
-	background: url(../img/site_showcase_bg.jpg) no-repeat top center;
+	background: url(../img/site_showcase_bg.jpg) no-repeat;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -71,10 +75,21 @@ section#feature ul li{
 	margin-top: 30px;
 }
 
+section#title-bar{
+	padding: 0;
+	height: 80px;
+	background: #1caa98;
+	color: white;
+}
+
+section#title-bar h1{
+
+}
+
 footer{
 	background-color: #333;
 	color: white;
-	padding: 30px 0 20px 0;
+	padding: 30px 0 15px 0;
 }
 
 footer li{
@@ -95,3 +110,218 @@ a:hover{
 footer p{
 	float: right;
 }
+
+
+/*Media Queries*/
+
+
+@media screen and (max-width: 325px){
+	.app-btn{
+		margin: 40px 10px 0 0;
+		width: 45%;
+		display: inline;
+	}
+
+	.showcase-img{
+		display: none;
+	}
+
+	.btn{
+		margin-bottom: 50px;
+	}
+
+	section#feature{
+		padding: 0;
+	}
+
+	section#feature ul li{
+		font-size: 15px;
+	}
+
+	.big-logo{
+		width: 50%;
+		margin-left: 50px;
+	}
+
+	footer li{
+		padding: 0 5px 15px 0;
+	}
+
+	footer p{
+		display: none;
+	}
+}
+
+
+@media screen and (min-width: 326px) and (max-width: 500px){
+	.app-btn{
+		margin: 40px 10px 0 0;
+		width: 45%;
+		display: inline;
+		padding-bottom: px;
+	}
+
+	.showcase-img{
+		display: none;
+	}
+
+	.btn{
+		margin-bottom: 50px;
+	}
+
+	section#feature{
+		padding: 0;
+	}
+
+	section#feature ul li{
+		font-size: 1.3em;
+	}
+
+	.big-logo{
+		width: 50%;
+		margin-left: 50px;
+	}
+
+	footer li{
+		padding: 0 10px 15px 0;
+	}
+
+	footer p{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 501px) and (max-width: 620px){
+	.app-btn{
+		margin: 40px 50px 0 10px;
+		width: 35%;
+		display: inline;
+	}
+
+	.showcase-img{
+		display: none;
+	}
+
+	.btn{
+		margin-bottom: 50px;
+	}
+
+	section#feature{
+		padding: 40px;
+	}
+
+	section#feature ul li{
+		font-size: 1.5em;
+	}
+
+	.big-logo{
+		width: 50%;
+		margin-left: 50px;
+	}
+
+	footer li{
+		padding: 0 10px 0 10px;
+	}
+
+	footer p{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 621px) and (max-width: 750px){
+	.app-btn{
+		margin: 40px 50px 0 20px;
+		width: 30%;
+		display: inline;
+	}
+
+	.showcase-img{
+		display: none;
+	}
+
+	.btn{
+		margin-bottom: 50px;
+	}
+
+	section#feature{
+		padding: 40px;
+	}
+
+	section#feature ul li{
+		font-size: 1.5em;
+	}
+
+	.big-logo{
+		margin-left: 50px;
+	}
+
+	footer li{
+		padding: 0 10px 10px 0px;
+	}
+}
+
+@media screen and (min-width: 751px) and (max-width: 991px){
+	.app-btn{
+		margin: 40px 50px 0 20px;
+		width: 30%;
+		display: inline;
+	}
+
+	.showcase-img{
+		display: none;
+	}
+
+	.btn{
+		margin-bottom: 50px;
+	}
+
+	section#feature{
+		padding: 40px;
+	}
+
+	section#feature ul li{
+		font-size: 1.5em;
+	}
+
+	.big-logo{
+		margin-left: 50px;
+	}
+
+	footer li{
+		padding: 0 10px 10px 0px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	.app-btn{
+		margin: 20px 20px 0 20px;
+		display: inline;
+		width: 40%;
+	}
+
+	.jumbotron img.showcase-img{
+		width: 75%;
+		margin-top: 101px;
+	}
+
+	.btn{
+		margin-bottom: 50px;
+	}
+
+	section#feature{
+		padding: 40px;
+	}
+
+	section#feature ul li{
+		font-size: 1.5em;
+	}
+
+	.big-logo{
+		margin-left: 50px;
+	}
+
+	footer li{
+		padding: 0 10px 10px 0px;
+	}
+}
+
